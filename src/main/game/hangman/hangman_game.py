@@ -1,5 +1,3 @@
-import random
-from os import system
 import hangman_utils
 
 #WORDS = ['rojo', 'verde', 'amarillo', 'negro', 'gris', 'azul']

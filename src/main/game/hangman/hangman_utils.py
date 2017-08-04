@@ -1,14 +1,6 @@
 import random
 from os import system
 
-#WORDS = ['rojo', 'verde', 'amarillo', 'negro', 'gris', 'azul']
-#WORDS = ['rojo', 'verde', 'amarillo']
-ALLOWED_NUMBER_OF_WRONG_GUESS = 5
-DICTIONARIES = [
-    {"name" : "SPANISH ANIMALS", "file": "resources/spanish_animals.txt"},
-    {"name" : "ENGLISH ANIMALS", "file": "resources/english_animals.txt"}
-]
-
 
 def read_file_with_words(filename):
     filein = open(filename, 'r')

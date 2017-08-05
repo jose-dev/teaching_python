@@ -7,7 +7,7 @@ def read_file_with_words(filename):
     filein = open(filename, 'r')
     words = []
     for line in filein.readlines():
-        words.append(line.strip('\n'))
+        words.append(line.strip('\n').lower())
     return words
 
 

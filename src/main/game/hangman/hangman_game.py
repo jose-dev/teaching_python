@@ -61,7 +61,7 @@ def main():
             message = raw_input("Would you like another game? (yes or no): ")
             if message == 'no':
                 play_on = False
-                hangman_utils.messages_to_player("Bye bye", True)
+                hangman_utils.messages_to_player("Hasta la vista baby", True)
             else:
                 hangman_utils.messages_to_player("\n\n\n")
 

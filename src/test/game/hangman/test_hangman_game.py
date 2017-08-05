@@ -4,7 +4,7 @@ import unittest
 class HangmanUtilsTest(unittest.TestCase):
 
     def test_read_file_with_words(self):
-        filename = 'resources/helloworld.txt'
+        filename = 'resources/hello_world.txt'
         expected = ['hello', 'world']
         self.assertEqual(hangman_utils.read_file_with_words(filename), expected)
 
@@ -75,3 +75,9 @@ class HangmanUtilsTest(unittest.TestCase):
         already_done = ['hello']
         expected = 'world'
         self.assertEqual(hangman_utils.select_new_random_word(all_words, already_done), expected)
+
+
+    def test_collect_dictionaries_from_directory(self):
+        expected = [{'name': 'BYE WORLD', 'file': 'resources/bye_world.txt'},
+                    {'name': 'HELLO WORLD', 'file': 'resources/hello_world.txt'}]
+        self.assertEqual(hangman_utils.collect_dictionaries_from_directory(), expected)

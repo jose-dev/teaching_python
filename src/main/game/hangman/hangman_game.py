@@ -1,12 +1,7 @@
 import hangman_utils
 
-#WORDS = ['rojo', 'verde', 'amarillo', 'negro', 'gris', 'azul']
-#WORDS = ['rojo', 'verde', 'amarillo']
 ALLOWED_NUMBER_OF_WRONG_GUESS = 5
-DICTIONARIES = [
-    {"name" : "SPANISH ANIMALS", "file": "resources/spanish_animals.txt"},
-    {"name" : "ENGLISH ANIMALS", "file": "resources/english_animals.txt"}
-]
+DICTIONARIES = hangman_utils.collect_dictionaries_from_directory()
 
 def main():
     hangman_utils.messages_to_player("Let's play hangman...")
@@ -17,8 +12,9 @@ def main():
         hangman_utils.messages_to_player("{0} - {1}".format(str(n), DICTIONARIES[n]['name']))
     selected_dictionary = int(raw_input('Which dictionary you want? Provide number: '))
     word_dictionary = hangman_utils.read_file_with_words(DICTIONARIES[selected_dictionary]['file'])
-    #word_dictionary = read_file_with_words(WORDS)
+    hangman_utils.messages_to_player("\n\n\n")
 
+    # play :)
     words_done = []
     play_on = True
     while play_on:
@@ -41,16 +37,21 @@ def main():
                 hangman_utils.messages_to_player("Well done the letter {0} is in the word".format(letter_guess), True)
                 answer_so_far = hangman_utils.place_answered_letter(word_to_guess, answer_so_far, letter_guess)
                 if hangman_utils.word_has_been_guessed(word_to_guess, answer_so_far):
-                    hangman_utils.messages_to_player("splendid, you guessed that the word: {0}".format(word_to_guess), True)
-            else:
+                    hangman_utils.messages_to_player("splendid, you guessed that the word", True)
+                    hangman_utils.messages_to_player("The secret word was: {0}".format(word_to_guess), True)
+                    hangman_utils.messages_to_player("The secret word was: {0}".format(word_to_guess))
+            elif letter_guess not in wrong_guess:
                 hangman_utils.messages_to_player("the letter {0} is not in the word".format(letter_guess), True)
                 wrong_guess.extend(letter_guess)
                 number_of_guess_left = number_of_guess_left - 1
                 if number_of_guess_left == 0:
-                    hangman_utils.messages_to_player("no more chances my friend, you are dead!", True)
+                    hangman_utils.messages_to_player("no more chances my friend, I am afraid you lost!", True)
                     hangman_utils.messages_to_player("The secret word was: {0}".format(word_to_guess), True)
                     hangman_utils.messages_to_player("The secret word was: {0}".format(word_to_guess))
-            print("\n\n\n")
+            else:
+                hangman_utils.messages_to_player("You already tried the letter {0} before".format(letter_guess), True)
+
+            hangman_utils.messages_to_player("\n\n\n")
 
         # decide whether you want or can keep playing
         if hangman_utils.all_words_done(word_dictionary, words_done):
@@ -61,6 +62,8 @@ def main():
             if message == 'no':
                 play_on = False
                 hangman_utils.messages_to_player("Bye bye", True)
+            else:
+                hangman_utils.messages_to_player("\n\n\n")
 
 
 if __name__ == "__main__":

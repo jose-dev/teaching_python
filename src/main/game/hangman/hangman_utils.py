@@ -1,5 +1,6 @@
 import random
-from os import system
+from os import system, listdir
+from os.path import isfile, join
 
 
 def read_file_with_words(filename):
@@ -8,6 +9,16 @@ def read_file_with_words(filename):
     for line in filein.readlines():
         words.append(line.strip('\n'))
     return words
+
+
+def collect_dictionaries_from_directory(pathin="resources/"):
+    dictionaries = []
+    for f in sorted(listdir(pathin)):
+        if isfile(join(pathin, f)):
+            filepath = join(pathin, f)
+            name = ((f.replace('.txt', '')).replace('_', ' ')).upper()
+            dictionaries.append({'name': name, "file": filepath})
+    return dictionaries
 
 
 def all_words_done(words=None, already_done=[]):
@@ -57,4 +68,3 @@ def messages_to_player(message=None, talk=False):
         system("say {0}".format(message))
     else:
         print(message)
-

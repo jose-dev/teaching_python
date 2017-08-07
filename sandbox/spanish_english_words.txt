@@ -1,0 +1,172 @@
+rojo	red
+naranja	orange
+amarillo	yellow
+verde	green
+azul	blue
+púrpura/morado	purple
+marrón	brown
+negro	black
+gris	grey
+blanco	white
+índigo, añil	indigo
+rosa	pink
+azul claro	light blue
+azul oscuro	dark blue
+azul intenso
+
+la rana — frog
+la salamandra — salamander
+el sapo — toad
+el tritón — newt
+
+
+AVES — BIRDS
+el águila (feminine noun) — eagle​
+el albatros — albatross
+el avestruz — ostrich
+el buitre — vulture
+el búho — owl
+la cigüeña — stork
+la cacatúa — cockatoo
+el colimbo — loon, diver
+la cotorra, el loro — parrot
+el emú — emu
+el flamenco — flamingo
+el ganso — goose
+la garza — heron
+la gaviota — seagull
+la grulla — crane
+el halcón — falcon, hawk
+la ibis — ibis
+la lechuza, el búho — owl
+el ñandú — rhea
+la oca — goose
+la paloma — dove
+el pato — duck
+el pavo — turkey
+el pavo real — peacock
+el pelícano — pelican
+el pingüino — penguin
+el somormujo — grebe
+el tucán — toucan
+
+MAMÍFEROS— MAMMALS
+el alce — elk, moose
+el caballo — horse
+el camello — camel
+el canguro — kangaroo
+la cebra — zebra
+el cerdo — pig
+el chimpancé — chimpanzee
+el ciervo — deer
+el elefante — elephant
+la foca — seal
+el gálago — galago
+el gibón — gibbon
+el gorila — gorilla
+el guepardo — cheetah
+la jirafa — giraffe
+el hipopótamo — hippopotamus
+el oso hormiguero — anteater
+el koala — koala
+el león — lion
+el león marino — sea lion
+el leopardo — leopard
+el manatí — manatee
+el mono — monkey
+la nutria — otter
+el oso — bear
+el panda — panda
+el pecarí — peccary
+el rinoceronte — rhinoceros
+el tapir — tapir
+el tigre — tiger
+el alce, el uapití — elk
+el visón — mink
+el zorro — fox
+
+REPTILES — REPTILES
+el lagarto, el aligátor — alligator
+la culebra — snake
+el cocodrilo — crocodile
+el caimán — caiman
+el serpiente — snake
+la tortuga — turtle, tortoise
+
+el burro, la burra — donkey; type of female donkey or jenny
+el caballo, la yegua — stallion or male horse, mare or female horse
+el conejo, la coneja — male rabbit, female rabbit
+el elefante, la elefanta — male elephant, female elephant
+el gato, la gata — male cat, female cat
+la gallina, el gallo — hen or chicken, rooster
+el lagarto, la lagarta — male lizard, female lizard
+el león, la leona — male lion, female lion or lioness
+el oso, la osa — male/female bear
+la oveja, el carnero — ewe or male sheep, ram or female sheep
+el perro, la perra — male dog, female dog or bitch
+el ratóen, la ratona — male mouse, female mouse
+el tigre, la tigresa — male tiger, female tiger or tigress
+la vaca, el toro — cow, bull
+
+
+Arm — el brazo
+Back — la espalda
+Backbone — la columna vertebral
+Brain — el cerebro, el seso
+Breast, chest — el pecho
+
+Buttocks — las nalgas
+Calf — la pantorrilla
+Ear — el oído, la oreja
+Elbow — el codo
+Eye — el ojo
+Finger — el dedo
+Foot — el pie
+Hair — el pelo
+Hand — la mano 
+Head — la cabeza
+Heart — el corazón
+Hip — la cadera
+Intestine — el intestino
+Knee — la rodilla
+Leg — la pierna
+Liver — el hígado
+Mouth — la boca
+Muscle — el músculo
+Neck — el cuello
+Nose — la nariz
+Shoulder — el hombro
+Skin — la piel
+Stomach (abdomen) — el vientre
+Stomach (internal organ) — el estómago
+Thigh — el muslo
+Throat — la garganta
+Toe — el dedo
+Tongue — la lengua
+Tooth — el diente, la muela
+
+
+School	Escuela / Colegio
+Backpack	Mochila
+Pencil box	Estuche de lápices / Caja de colores
+Pencil	Lápiz
+Pencil crayon	Lápiz a color
+Crayon	Crayón / crayola
+Marker / felt	Marcador / plumón
+Piece of paper	Hoja de papel
+Glue	Pegamento
+Ruler	Regla
+Scissors	Tijeras
+Book	Libro
+Notebook	Cuaderno
+Whiteboard	Pizarrón / tablero
+Table	Mesa
+Chair	Silla
+Desk	Escritorio
+Light	Luz
+Clock	Reloj
+Telephone	Teléfono
+Carpet	Alfombra
+Door	Puerta
+Window	Ventana
+Computer	Computadora
